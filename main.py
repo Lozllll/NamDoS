@@ -25,7 +25,7 @@ packet = int(input(colored ("[+] Packets: ", "green")))
 thread= int(input(colored ("[+] Threads: ","green"))) time.sleep(1.5)
 
 print(colored(ne time.sleep(2)
-print(colored("\n[+] start...","green"}} time.sleep(1)
+print(colored("\n[+] start...","green")) time.sleep(1)
 print(colored("\n","green")) time.sleep(1)
 print(colored("\n","green")) time.sleep(1)
 print(colored("\n1","green")) tie.sleep(1)
