@@ -5,7 +5,6 @@ import os
 import time
 from termcolor import colored
 os.system('cls')
-print(colored(r"""
 _   _                       _____             _____ 
  | \ | |                     |  __ \           / ____|
  |  \| |   __ _   _ __ ___   | |  | |   ___   | (___  
