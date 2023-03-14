@@ -13,6 +13,7 @@
 # INSTALLATION (CÀI ĐẶT):
 ```shell script
 apt install golang -y
+apt install git
 git clone https://github.com/Lozllll/NamDoS.git
 cd NamDoS
 go run namdos.go --site https://domain.com/
