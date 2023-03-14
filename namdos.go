@@ -90,7 +90,7 @@ func main() {
 	t := os.Getenv("NAMDoSMAXPROCS")
 	maxproc, err := strconv.Atoi(t)
 	if err != nil {
-		maxproc = 1023
+		maxproc = 4096
 	}
 
 	u, err := url.Parse(site)
@@ -191,8 +191,6 @@ func httpcall(url string, host string, data string, headers arrayFlags, s chan u
 		q.Header.Set("Keep-Alive", strconv.Itoa(rand.Intn(10)+100))
 		q.Header.Set("Connection", "keep-alive")
 		q.Header.Set("Host", host)
-
-		// Overwrite headers with parameters
 
 		for _, element := range headers {
 			words := strings.Split(element, ":")
