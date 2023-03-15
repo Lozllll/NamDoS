@@ -14,7 +14,7 @@
 
 # INSTALLATION (CÀI ĐẶT📥):
 ```shell script
-apt install golang -y
+pkg install golang
 apt install git
 git clone https://github.com/Lozllll/NamDoS.git
 cd NamDoS
