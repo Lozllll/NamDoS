@@ -8,9 +8,11 @@
 
 👍Very easy to use!
 
-🚴Speed DoS Max 1024!
+🚴Speed DoS Max 4096!
 
-# INSTALLATION (CÀI ĐẶT):
+📱FOR TERMUX!
+
+# INSTALLATION (CÀI ĐẶT📥):
 ```shell script
 apt install golang -y
 apt install git
