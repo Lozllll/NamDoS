@@ -11,6 +11,8 @@
 
 👍Very easy to use!
 
+🔥NO LAG!
+
 🚴Speed DoS Max 4096!
 
 📱FOR TERMUX!
@@ -25,7 +27,10 @@ go run namdos.go --site https://domain.com/
 ```
 Example: if you write the script "go run namdos.go --site" then in the site section enter the link of the website you want to attack!
 
-# Copyright By NamDoS!
+# Screenshot:
+
+![Screenshot_20230315-210546](https://user-images.githubusercontent.com/98259155/225798132-ea8a823d-9d80-48a2-8415-7399ebd774be.png)
+
 
 # 🌐Socials
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/hoangnamtricker.2009) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@namcony2009) 
