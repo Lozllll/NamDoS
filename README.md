@@ -35,5 +35,5 @@ Example: if you write the script "go run namdos.go --site" then in the site sect
 # 🌐Socials
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/hoangnamtricker.2009) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@namcony2009) 
 
----
+
 [![](https://visitcount.itsvg.in/api?id=Lozllll&icon=0&color=0)](https://visitcount.itsvg.in)
